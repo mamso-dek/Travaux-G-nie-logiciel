@@ -1,0 +1,23 @@
+CAS D'UTILISATION: Passer une Commande de Nourriture en Ligne
+
+Acteur:
+. Client 
+. Restaurant 
+. Livreur
+
+Scénario Principal:
+Ce cas d'utilisation commence losque le client ouvre la plateforme 
+du service de commande de nourriture en ligne.
+Le client s'authentifie avec son compte; le système lui affiche le 
+menu avec les différentes catégories et options où il navigue pour 
+choisir ce qu'il désir.
+Il ajoute ces derniers au panier, fournit les détails de livraison 
+,choisit le mode de paiement puis confirme sa commande.
+Le système envoi la commande au restaurant séléctionné qui recoit
+une notification de la nouvelle commande et notifie aussi au système(sur la plateforme)
+que la commande est en coursde traitement.
+Le système affecte un livreur disponible à la commande par notification,
+le livreur signale sur la platforme que la livraison est en cours et aussi que 
+la livraison est effectuée quand c'est le cas.
+Le système notifie le client ainsi que le restaurant  
+
