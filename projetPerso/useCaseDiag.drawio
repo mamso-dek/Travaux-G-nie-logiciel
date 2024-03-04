@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2024-03-04T10:06:09.756Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="H0cQ7PNHKP4Z3M1YjjqE" version="23.1.1" type="device">
+  <diagram name="Page-1" id="S9jlU5zTJea0odiS6df1">
+    <mxGraphModel dx="1034" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1hLZS-lY9Z3ocEi8KFrw-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1hLZS-lY9Z3ocEi8KFrw-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="50" width="600" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="1hLZS-lY9Z3ocEi8KFrw-3" value="Jeu de devinette de nombre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1hLZS-lY9Z3ocEi8KFrw-5" value="Vérifier nombre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1hLZS-lY9Z3ocEi8KFrw-6" value="Afficher le message de succès" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="190" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1hLZS-lY9Z3ocEi8KFrw-8" value="Afficher le message d&#39;échec de la partie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="330" width="156" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1hLZS-lY9Z3ocEi8KFrw-9" value="Demander nouvelle partie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="330" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1hLZS-lY9Z3ocEi8KFrw-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="1hLZS-lY9Z3ocEi8KFrw-1" target="1hLZS-lY9Z3ocEi8KFrw-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="290" as="sourcePoint" />
+            <mxPoint x="170" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hLZS-lY9Z3ocEi8KFrw-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1hLZS-lY9Z3ocEi8KFrw-5" target="1hLZS-lY9Z3ocEi8KFrw-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="260" as="sourcePoint" />
+            <mxPoint x="510" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hLZS-lY9Z3ocEi8KFrw-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1hLZS-lY9Z3ocEi8KFrw-5" target="1hLZS-lY9Z3ocEi8KFrw-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hLZS-lY9Z3ocEi8KFrw-13" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1hLZS-lY9Z3ocEi8KFrw-5" target="1hLZS-lY9Z3ocEi8KFrw-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="250" as="sourcePoint" />
+            <mxPoint x="610" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hLZS-lY9Z3ocEi8KFrw-14" value="Ce cas d&#39;utilisation commence lorsque le joueur entre un nombre&lt;br&gt;et clique sur le bouton &amp;lt;valider&amp;gt;;&lt;br&gt;Le système vérifie si son nombre correspond au nombre a deviné&lt;br&gt;oui? Alors le système déclare la partie gagnée.&lt;br&gt;non? Alors la partie est déclarée perdue si le nombre d&#39;essaie dépasse&amp;nbsp; est 20&lt;br&gt;Le joueur peut demander une nouvelle partie à tout moment.&amp;nbsp;&amp;nbsp;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="380" width="230" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
